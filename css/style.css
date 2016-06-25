@@ -1,0 +1,307 @@
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+@font-face{
+font-family: gotFont;
+src: url(got.ttf);
+}
+
+body{
+  font-family: 'Quicksand', sans-serif;
+      background-color: #c9c0c0;
+
+}
+
+#modal_body_welcome {
+
+    padding: 18%;
+}
+
+#big_got_word{
+font-family: gotFont;
+
+}
+
+.pop_up_info{
+text-align: center;
+margin-bottom: 40px;
+
+}
+
+#pop_up_more_info{
+text-align: center;
+
+}
+
+#quote{
+text-align: center;
+}
+
+
+.theQuote{
+  margin-top: 20%;
+  text-align: -webkit-right;
+
+}
+
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#chal_btn{
+  position: relative;
+  bottom: 31px;
+  color: white;
+  background-color: #00BFA5;
+  padding: 3%;
+  font-size: 18px;
+
+}
+
+
+#list_title{
+text-align: center;
+
+}
+
+.well-main{
+height :330px;
+background-color: #ECEFF1;
+
+}
+
+.well-sm{
+  padding: 18px;
+  border-radius: 1em;
+
+}
+
+.well-image{
+  width: 200px;
+  height: 284px;
+}
+.top-buffer{
+    margin-top: 30px;
+}
+.answer{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+}
+.answer:hover{
+    cursor: pointer;
+}
+.image-answer{
+    cursor: pointer;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    ;
+}
+.image-answer img{
+    width: 100%;
+    height: 100%;
+
+}
+.image-selected{
+    border: 3px solid #56afdc;
+}
+.image-answer.bg-success{
+    border: 3px solid #5ea640;
+}
+.image-answer.bg-danger{
+    border: 3px solid #b74848;
+}
+
+.model_name{
+margin-bottom: 20%;
+}
+
+.modal-content{
+  background-color: #D9D8D2;
+}
+
+.learn_more{
+
+  position: relative;
+
+}
+
+.learn_more:hover {
+    background-color: #eceff1;
+    color: #96AB95;
+    border: 2px solid #96AB95;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #96AB95;
+    border-color: #96AB95;
+}
+
+
+.search_bar{
+  height: 50px;
+  width: 100%;
+  border: 0.1em solid #777274;
+  margin-bottom: 2%;
+  background-color: transparent;
+
+}
+
+
+#quiz-btn {
+  padding: 15px 40px;
+
+  background: #F09595;
+  border: none;
+  border-radius: 8px;
+
+  color: white;
+
+  margin-bottom: 2%;
+  animation: attention 6s ease infinite;
+}
+
+@keyframes attention {
+  9% {
+    transform: none;
+  }
+  12% {
+    transform: scale(1.05);
+  }
+  16% {
+    transform: scale(0.95);
+  }
+  20% {
+    transform: scale(1.03);
+  }
+  24% {
+    transform: scale(1);
+  }
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #ea6873;
+    border-color: #ea6873;
+}
+
+
+/*QUIZ SECTION*/
+
+.btn-info{
+  background-color: #00897b;
+
+}
+
+.width_style{
+width: 33%;
+
+}
+
+.question_well{
+        padding-bottom: 57px;
+}
+
+
+
+/*Social Media Button*/
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoPortfolio:hover {
+	background-color:#607D8B;
+}
+
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoGithub:hover {
+	background-color:#800080;
+}
+
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoPortfolio:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoGithub:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a {
+ background-color: #D3D3D3;
+}
